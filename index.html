@@ -8,7 +8,7 @@
 <div>
 
     <body>
-        <script>
+        <!-- <script>
             function abrirMenu() {
                 document.getElementById("menu").style.display = "block";
                 console.log("aaaaaaaa")
@@ -17,17 +17,21 @@
                 document.getElementById("menu").style.display = "none";
                 console.log("eeeeee")
             }
-        </script>
+            function saludar() {
+                alert("hola");
+            }
+        </script> -->
+
+        <script src="index.js"></script>
+
+
+        <button onclick="saludar()">Saludame</button>
 
         <div>
             <nav class="barra">
-                <button class="button" onclick="abrirMenu()">
+                <button class="button menu-responsive" onclick="abrirMenu()">
                     <img src="../imagenes/menu-hamburguesa.svg" alt="" width="65%" height="65%">
                 </button>
-
-                <!-- <button onclick="cerrarMenu()">
-                    <img src="../imagenes/cerrar-menu.svg" alt="" width="65%" height="65%">
-                </button> -->
 
                 <ul class="barra ul">
                     <li><a href="#"> Herramientas </a></li>
@@ -43,7 +47,7 @@
 
         <div>
             <nav class="menu" id="menu">
-                <button class="button close" onclick="cerrarMenu()">
+                <button class="button close menu-responsive" onclick="cerrarMenu()">
                     <img src="../imagenes/cerrar-menu.svg" alt="" width="65%" height="65%">
                 </button>
                 <ul class="cambiando">
@@ -87,21 +91,24 @@
                     <h1>Corrector</h1>
                     <p class="price">$ 2.000</p>
                     <p>Corrector en Barra Stick Full Coverage</p>
-                    <button>Agregar al carrito</button>
+                    <a href="detalleProducto.html">
+                        <button>Ver detalles</button>
+                    </a>
+
                 </div>
                 <div class="card">
                     <img src="../imagenes/delineador.lapiz.webp" alt="" width="65%" height="65%">
                     <h1>Delineador Labial</h1>
                     <p class="price">$ 1.960</p>
                     <p>Lápiz Delineador Labial Ultra Rich</p>
-                    <button>Agregar al carrito</button>
+                    <button>Ver detalles</button>
                 </div>
                 <div class="card">
                     <img src="../imagenes/barra-labial.webp" alt="" width="65%" height="65%">
                     <h1>Labial en barra</h1>
                     <p class="price">$ 5.173</p>
                     <p>Barra Labial 2 en 1</p>
-                    <button>Agregar al carrito</button>
+                    <button>Ver detalles</button>
                 </div>
             </div>
             <div class="tarjeta mapad">
@@ -110,21 +117,21 @@
                     <h1>Base Liquida</h1>
                     <p class="price">$ 5.472</p>
                     <p>Base de Maquillaje</p>
-                    <button>Agregar al carrito</button>
+                    <button>Ver detalles</button>
                 </div>
                 <div class="card">
                     <img src="../imagenes/Delineador.webp" alt="" width="65%" height="65%">
                     <h1>Delineador de ojos</h1>
                     <p class="price">$ 4.002</p>
                     <p>Delineador Ultra Fine Eyeliner Waterproof</p>
-                    <button>Agregar al carrito</button>
+                    <button>Ver detalles</button>
                 </div>
                 <div class="card">
                     <img src="../imagenes/labial.liquido.webp" alt="" width="65%" height="65%">
                     <h1>Labial Liquido</h1>
                     <p class="price">$ 4.470</p>
                     <p>Labial Liquido Matte Super Stay Matte</p>
-                    <button>Agregar al carrito</button>
+                    <button>Ver detalles</button>
                 </div>
             </div>
             <div class="tarjeta mapad">
@@ -133,21 +140,21 @@
                     <h1>Labial Velvet</h1>
                     <p class="price">$ 4.669</p>
                     <p>Labial Velvet Matte Metallic</p>
-                    <button>Agregar al carrito</button>
+                    <button>Ver detalles</button>
                 </div>
                 <div class="card">
                     <img src="../imagenes/mascara.webp" alt="" width="65%" height="65%">
                     <h1>Rimmel Ojos</h1>
                     <p class="price">$ 4.053</p>
                     <p>Máscara de Pestañas Volume One Touch</p>
-                    <button>Agregar al carrito</button>
+                    <button>Ver detalles</button>
                 </div>
                 <div class="card">
                     <img src="../imagenes/Labial.webp" alt="" width="65%" height="65%">
                     <h1>Labial</h1>
                     <p class="price">$ 3.220</p>
                     <p>Labial Long Wearing Lipstick</p>
-                    <button>Agregar al carrito</button>
+                    <button>Ver detalles</button>
                 </div>
             </div>
         </div>
